@@ -32,8 +32,8 @@ void publicacao(){
   Serial.print(temp_atual, 2);
   Serial.println(F("°C"));
 
-  // Envio / registro no feed "temperatura" no Adafruit IO
-  temperatura -> save (temp_atual);
+  // // Envio / registro no feed "temperatura" no Adafruit IO
+  // temperatura -> save (temp_atual);
 
   temp_anterior = temp_atual;
 }
